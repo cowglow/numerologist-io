@@ -2,13 +2,11 @@
 <html class="no-js" lang="">
   <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>numerologist-io</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="manifest" href="site.webmanifest" />
     <link rel="apple-touch-icon" href="icon.png" />
-    <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
@@ -18,17 +16,21 @@
 
   <body>
     <div class="root">
-      <h1>numerologist.io</h1>
-      <label>
-        <textarea id="io" class="textarea">
+      <div class="content">
+        <h1 class="header">numerologist-io</h1>
+        <div class="input">
+          <label>
+            <textarea id="io" class="textarea" rows="5" cols="50" placeholder="Type something that you would like to know it's numerical value.">
 as soon as you discard scientific rigor you are no longer a mathematician you are a numerologist</textarea
-        >
-      </label>
-      <button id="convertBtn" class="button">Convert</button>
-      <button id="resetBtn" class="button">Reset</button>
+            >
+          </label>
+        </div>
+        <div class="controls">
+          <button id="convertBtn" class="button">Convert</button>
+          <button id="resetBtn" class="button">Reset</button>
+        </div>
+      </div>
     </div>
-    <script src="js/vendor/modernizr-3.8.0.min.js"></script>
-    <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
