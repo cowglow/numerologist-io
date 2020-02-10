@@ -69,9 +69,6 @@ a:hover {
 }
 
 @media (max-width: 800px) {
-  .root {
-    /*background-color: red;*/
-  }
   .input {
     margin: 0 1.3em 0;
     padding: 1.3em;
