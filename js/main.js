@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 
     button.addEventListener("click", convert);
-    button.focus();
+    button.blur();
 
     result.addEventListener("click", reset);
 
